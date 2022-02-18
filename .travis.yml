@@ -5,3 +5,8 @@ jdk:
   - openjdk17
 script:
   - sbt test
+after_script:
+  # Upload test results to BuildPulse for flaky test detection
+  - curl -fsSL --retry 3 https://get.buildpulse.io/test-reporter-linux-amd64 > ./buildpulse-test-reporter
+  - chmod +x ./buildpulse-test-reporter
+  - ./buildpulse-test-reporter submit target/test-reports --account-id 68192324 --repository-id 460987190
