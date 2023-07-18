@@ -15,7 +15,7 @@ If you have an existing ScalaTest project building on Travis CI, this [diff](htt
 BuildPulse also offers integrations for:
 
 - **CircleCI** [[docs](https://circleci.com/developer/orbs/orb/workshop64/buildpulse)]
-- **Semaphore** [[docs](https://github.com/Workshop64/buildpulse-semaphore)]
+- **Semaphore** [[docs](https://github.com/buildpulse/buildpulse-semaphore)]
 - Buildkite (available in early access)
 - Jenkins (available in early access)
 - webapp.io (available in early access)
