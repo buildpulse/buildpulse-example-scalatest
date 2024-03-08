@@ -1,6 +1,6 @@
 # BuildPulse Example Project: Scala + ScalaTest
 
-This is an example [ScalaTest](https://www.scalatest.org/) project demonstrating how to send test results to [BuildPulse](https://buildpulse.io) to help you detect, track, and eliminate flaky tests.
+This is an example [ScalaTest](https://www.scalatest.org/) project demonstrating how to send test results to [BuildPulse](https://buildpulse.io) to help you find and [fix flaky tests](https://buildpulse.io/products/flaky-tests).
 
 ## GitHub Actions CI Integration
 
